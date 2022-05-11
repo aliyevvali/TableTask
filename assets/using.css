@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: purple;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: orange;
+
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+
+
+input[type="text"],
+input[type="number"] {
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: aliceblue;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+input[type="reset"] {
+    background-color: blue;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: blue;
+}
